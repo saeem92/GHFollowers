@@ -23,6 +23,7 @@ class GFButton: UIButton {
         super.init(frame: .zero)
         self.backgroundColor = backgroundColor //self means this button
         self.setTitle(title, for: .normal) // There are different states of button I am using 'normal' here.
+        configure()
     }
     
     
