@@ -37,7 +37,10 @@ class GFTextField: UITextField {
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
         
+        returnKeyType = .go // This will change keyboard return key to go
+        
         placeholder = "Enter a username"
+//        keyboardType = . can change keyboard type with this method
     }
     
     

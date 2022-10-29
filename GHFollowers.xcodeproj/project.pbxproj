@@ -15,6 +15,7 @@
 		C03C331728FD75C00020D5B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03C331528FD75C00020D5B3 /* LaunchScreen.storyboard */; };
 		C082B725290B0A90005C98B5 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082B724290B0A90005C98B5 /* GFButton.swift */; };
 		C082B727290B2720005C98B5 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082B726290B2720005C98B5 /* GFTextField.swift */; };
+		C0BBCB70290DD43E001CDBF8 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BBCB6F290DD43E001CDBF8 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C03C331828FD75C00020D5B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C082B724290B0A90005C98B5 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		C082B726290B2720005C98B5 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		C0BBCB6F290DD43E001CDBF8 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				C01112CF29009ACA005CD924 /* FavoritesListVC.swift */,
 				C082B724290B0A90005C98B5 /* GFButton.swift */,
 				C082B726290B2720005C98B5 /* GFTextField.swift */,
+				C0BBCB6F290DD43E001CDBF8 /* FollowerListVC.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				C01112D029009ACA005CD924 /* FavoritesListVC.swift in Sources */,
 				C082B725290B0A90005C98B5 /* GFButton.swift in Sources */,
 				C01112CE29009A63005CD924 /* SearchVC.swift in Sources */,
+				C0BBCB70290DD43E001CDBF8 /* FollowerListVC.swift in Sources */,
 				C03C330B28FD75C00020D5B3 /* AppDelegate.swift in Sources */,
 				C03C330D28FD75C00020D5B3 /* SceneDelegate.swift in Sources */,
 			);
