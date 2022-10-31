@@ -43,7 +43,7 @@ class SearchVC: UIViewController {
   @objc func pushFollowerListVC() {
       
       guard isUsernameEntered else { // the guard statement here will not allow user to go anywhere after clicking on getfollowers until they enter a username first
-          print("No Username")
+          presentGFAlertOnMainThread(title: "Empty Username", message: "Please enter a username. We need to know who to look for 🙂", buttonTitle: "Ok")
           return }
       
         let followerListVC = FollowerListVC()
